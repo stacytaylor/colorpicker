@@ -1,0 +1,87 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <header>
+        <div>
+            <input type="color" id="base-color" name="base-color" value="#ffffff" />
+        </div>
+
+           
+            <div class="dropdown">
+                <select name="color-select" id="color-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogie-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+            </div>
+            
+            <div id='btn-container'>
+                <button id='get-btn'>Get color scheme</button>
+            </div>
+       </header>
+       
+       <main>
+
+            <div class='column'>
+                <div class='color' id='color-1'>
+                </div>
+                
+                <div class='hex-code' id='hex-code-1'>
+                    <p class="hex">#F55A5A</p>
+                </div>
+           </div>             
+                
+            <div class='column'>
+                <div class='color' id='color-2'>
+                </div>
+                
+                <div class='hex-code' id='hex-code-2'>
+                    <p class="hex">#2B283A</p>
+                </div>
+           </div>    
+           
+            <div class='column'>
+                <div class='color' id='color-3'>
+                    
+                </div>
+                
+                <div class='hex-code' id='hex-code-3'>
+                    <p class="hex">#FBF3AB</p>
+                </div>
+           </div>    
+           
+            <div class='column'>
+                <div class='color' id='color-4'>
+                </div>
+                
+                <div class='hex-code' id='hex-code-4'>
+                    <p class="hex">#AAD1B6</p>
+                </div>
+           </div>    
+           
+            <div class='column'>
+                <div class='color' id='color-5'>
+                   
+                </div>
+                
+                <div class='hex-code' id='hex-code-5'>
+                    <p class="hex">#A626D3</p>
+                </div>
+           </div>    
+                
+       </main>
+       
+       
+       
+        
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
